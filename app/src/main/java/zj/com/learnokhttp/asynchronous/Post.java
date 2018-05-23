@@ -34,5 +34,22 @@ public class Post {
             }
         });
 
+
+        //文件上传
+        //        OkHttpClient okHttpClient=new OkHttpClient();
+        //        File file = new File(Environment.getExternalStorageDirectory(), "test.txt");
+        //        RequestBody body = RequestBody.create(MediaType.parse("application/octet-stream"), file);
+        //        RequestBody requestBody = new MultipartBody.Builder()
+        //                .setType(MultipartBody.FORM)
+        //                .addPart(Header对象,body)
+        ////.addFormDataPart("XXX","XXX",body)
+        //                .build();
+        //        Request request = new Request.Builder()
+        //                .url("XXXX")
+        //                .post(requestBody)
+        //                .build();
+        //
+        //        Call call = okHttpClient.newCall(request);
+        //        call.enqueue(new Callback(){ });
     }
 }
